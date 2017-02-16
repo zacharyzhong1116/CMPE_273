@@ -25,7 +25,7 @@ sorted_bi = sorted(di.items(), key=operator.itemgetter(1),reverse=True)
 for c in sorted_bi:
     for d in listo:
         if(c[0]==d[0]):
-            print d[0], d[1], d[2], d[3]
+           print '\"%d\",\"%s\",\"%s\",\"%s\"'% (d[0],d[1],d[2],d[3])
 #  sorted(listo,key=operator.itemgetter(4),reverse=True)
 # for c in listo :
 #     print "\"",c[0],"\"",",","\"",c[1],"\"",",","\"",c[2],"\"",",","\"",c[3],"\""
