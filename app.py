@@ -14,7 +14,7 @@ g = GitHub()
 url= fu.split('/')
 l = len(url)
 # gh = g.login('zacharyzhong1116', '1101202027zzy')
-# amiforgit = g.user('zacharyzhong1116')
+# user = g.user('zacharyzhong1116')
 
 #print(base64.b64decode(g.repository(url[l - 2], url[l - 1]).contents("/dev-config.yml").content))
 
