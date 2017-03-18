@@ -37,4 +37,4 @@ def hello2(name):
         c = json.dumps(yaml.load(c), indent=2)
         return c
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True,host='0.0.0.0')
